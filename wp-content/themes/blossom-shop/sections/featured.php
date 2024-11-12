@@ -48,10 +48,10 @@ if( $ed_featured ){ ?>
                                     blossom_shop_get_fallback_svg( $image_size );
                                 }
                             ?>                                   
-                        </figure>
                         <div class="block-content">
                             <?php the_title( '<h4 class="block-title"><a href="'. esc_url( get_permalink() ) .'">', '</a></h4>' ); ?>
                         </div>
+                        </figure>
                     </div>
                 <?php } wp_reset_postdata();                                    
             ?>
@@ -79,5 +79,29 @@ if( $ed_featured ){ ?>
                 }
             } ?>
         </div>
+        <br>
+        <div class="container">             
+                                                    <div class="section-block">
+                            <figure class="block-img">
+                                <img width="640" height="854" src="http://localhost:3000/wp-content/uploads/2024/11/bombillas-caldenia.jpg" class="attachment-full size-full" alt="MATE CAMIONERO caldenia" decoding="async" srcset="http://localhost:3000/wp-content/uploads/2024/11/bombillas-caldenia.jpg 640w, http://localhost:3000/wp-content/uploads/2024/11/bombillas-caldenia-225x300.jpeg 225w, http://localhost:3000/wp-content/uploads/2024/11/bombillas-caldenia-600x801.jpeg 600w" sizes="(max-width: 640px) 100vw, 640px">                                  
+                            </figure>
+                            <div class="block-content">
+                                <h4 class="block-title"><a href="http://localhost:3000/?product_cat=bombillas&amp;customize_changeset_uuid=03d3d65e-b1bf-49ee-bfa0-2dcae83a8527&amp;customize_autosaved=on&amp;customize_messenger_channel=preview-0">Bombillas</a></h4>                            </div>
+                        </div>
+                                            <div class="section-block">
+                            <figure class="block-img">
+                                <img width="760" height="506" src="http://localhost:3000/wp-content/uploads/2024/11/bolso-matero-caldenia.jpg" class="attachment-full size-full" alt="yerbas caldenia" decoding="async" srcset="http://localhost:3000/wp-content/uploads/2024/11/bolso-matero-caldenia.jpg 760w, http://localhost:3000/wp-content/uploads/2024/11/bolso-matero-caldenia-300x200.jpg 300w, http://localhost:3000/wp-content/uploads/2024/11/bolso-matero-caldenia-600x399.jpg 600w" sizes="(max-width: 760px) 100vw, 760px">                                  
+                            </figure>
+                            <div class="block-content">
+                                <h4 class="block-title"><a href="http://localhost:3000/?product_cat=bolsos&amp;customize_changeset_uuid=03d3d65e-b1bf-49ee-bfa0-2dcae83a8527&amp;customize_autosaved=on&amp;customize_messenger_channel=preview-0">Bolsos</a></h4>                            </div>
+                        </div>
+                                            <div class="section-block">
+                            <figure class="block-img">
+                                <img width="683" height="1024" src="http://localhost:3000/wp-content/uploads/2024/11/almohadon-matero-caldenia.jpg" class="attachment-full size-full" alt="termos caldenia" decoding="async" srcset="http://localhost:3000/wp-content/uploads/2024/11/almohadon-matero-caldenia.jpg 683w, http://localhost:3000/wp-content/uploads/2024/11/almohadon-matero-caldenia-200x300.jpg 200w, http://localhost:3000/wp-content/uploads/2024/11/almohadon-matero-caldenia-540x810.jpg 540w, http://localhost:3000/wp-content/uploads/2024/11/almohadon-matero-caldenia-600x900.jpg 600w" sizes="(max-width: 683px) 100vw, 683px">                                  
+                            </figure>
+                            <div class="block-content">
+                                <h4 class="block-title"><a href="http://localhost:3000/?product_cat=otros&amp;customize_changeset_uuid=03d3d65e-b1bf-49ee-bfa0-2dcae83a8527&amp;customize_autosaved=on&amp;customize_messenger_channel=preview-0">Otros</a></h4>                            </div>
+                        </div>
+                            </div>
     </section>
 <?php }
